@@ -15,9 +15,15 @@ spec:
     spec:
       containers:
         - env:
-            - name: MARIADB_ROOT_PASSWORD
+            - name: MYSQL_USER
+              value: climatewavers
+            - name: MYSQL_PASSWORD
               value: waverx
-          image: mariadb
+            - name: MYSQL_DATABASE
+              value: climatewavers_db
+            - name: MYSQL_ROOT_PASSWORD
+              value: waver
+          image: mariadb:latest
           name: climatewavers-mariadb
           ports:
             - containerPort: 3306

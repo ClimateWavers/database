@@ -1,1 +1,1 @@
-cat /tmp/setup_mariadb.sql | mariadb --user=root --password=waverx
+cat /tmp/setup_mariadb.sql | mysql --user=root
