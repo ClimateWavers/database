@@ -1,5 +1,3 @@
-Sure, here's a template for a README for your MariaDB backend in the Climate Wavers application:
-
 # Climate Wavers MariaDB Backend
 
 This repository contains the backend component of the Climate Wavers application, responsible for managing data storage and communication between various microservices.
