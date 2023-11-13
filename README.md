@@ -58,6 +58,10 @@ Using the scripts provided in `automate_development` folder, simplifies deployme
 ```bash
 ./deploy.sh
 ```
+#### Setup database on openshift
+```bash
+./database_setup.sh
+```
 
 
 ## Contributing
